@@ -1,0 +1,40 @@
+# Site settings
+title: My Awesome Website
+email: webmaster@example.com
+description: This will show up in the description field of search engine results - neat right?
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://example.com # Site url. Place your path here, or leave blank to work local.
+twitter_username: octocat
+github_username: octocat
+
+site-links:
+  - name: Home
+    url: https://example.com
+    icon: fas fa-home
+    color: "#000"
+
+social-links:
+  - name: GitHub
+    url: http://github.com/github
+    icon: fab fa-github
+    color: "#25292E"
+    external: true
+  - name: Linkedin
+    url: https://www.linkedin.com/company/github/
+    icon: fab fa-linkedin
+    color: "#6AABE9"
+    external: true
+  - name: Facebook
+    url: http://facebook.com/github
+    icon: fab fa-facebook
+    color: "#3B5998"
+    external: true
+
+include: [".well-known"]
+
+# Build settings
+highlighter: rouge
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+permalink: pretty
+plugins:
+  - jekyll-redirect-from
