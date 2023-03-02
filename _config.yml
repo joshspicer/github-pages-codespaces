@@ -3,7 +3,7 @@ title: My Awesome Website
 email: webmaster@example.com
 description: This will show up in the description field of search engine results - neat right?
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://example.com # Site url. Place your path here, or leave blank to work local.
+url: "demo.spicer.dev" # CHANGEME:  Site url. Place your path here, or leave blank to work local.
 twitter_username: octocat
 github_username: octocat
 
