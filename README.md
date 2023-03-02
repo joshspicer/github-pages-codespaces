@@ -25,5 +25,5 @@ tags: getting-started
 ---
 ```
 
-2. Run `python tag_generator.py`
+2. Run `python3 tag_generator.py`
 3. Restart the jekyll server.
