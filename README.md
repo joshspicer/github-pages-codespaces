@@ -2,15 +2,17 @@
 
 ## Introduction
 
-This is a barebones jekyll based on [diezcami/arctic-fox-theme](https://github.com/diezcami/arctic-fox-theme) with some improvements and modifications.  
+This is a barebones website/blog based on [diezcami/arctic-fox-theme](https://github.com/diezcami/arctic-fox-theme) with some improvements and modifications.
 
-It is intended to be developed with [GitHub Codespaces](https://github.com/features/codespaces) and deployed with [GitHub Pages](https://pages.github.com/).
+This website uses the [Jekyll](https://jekyllrb.com/) static webiste framework.
 
-### Usage
+It is intended to be developed with [GitHub Codespaces](https://github.com/features/codespaces) and deployed with [GitHub Pages](https://pages.github.com/).  Go to the code dropdown and create a codespace to get developing!
 
-To run the server locally, run the `jekyll serve` command in your terminal.  Port 4000 will be forwarded, which you can open in your web browser.
+To run the server locally, run the `jekyll serve` command in your terminal.  Port 4000 will be forwarded, which you can open in your web browser.  
 
-#### Generating tags
+> This repo's [devcontainer.json](.devcontainer/devcontainer.json) includes a `postAttachCommand` that will execute this command automatically when connecting to the codespace 🚀
+
+### Generating tags
 
 1. Add your tag to the preamable of a post in `_posts/`
 
